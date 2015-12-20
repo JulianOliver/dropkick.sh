@@ -1,12 +1,12 @@
 # dropkick.sh
 Detect and disconnect hidden WiFi cameras in that AirBnB you're staying in
 
-Originally up on my [https://julianoliver.com/output/log_2015-12-18_14-39]() and
+Originally up on my [log](https://julianoliver.com/output/log_2015-12-18_14-39) and
 as seen on
-[http://motherboard.vice.com/read/kill-your-airbnbs-hidden-wifi-cameras-with-this-script](Motherboard).
+[Motherboard](http://motherboard.vice.com/read/kill-your-airbnbs-hidden-wifi-cameras-with-this-script).
 
 Context
-=======
+-------
 
 There have been a few too many stories lately of AirBnB hosts caught spying on
 their guests with WiFi cameras, using DropCam cameras in particular. Here’s a
@@ -21,7 +21,7 @@ For a plug-and-play solution in the form of a network appliance, see
 [https://plugunplug.net](Cyborg Unplug).
 
 Disclaimer
-=========
+---------
 
 For the record, I’m well aware DropCam and Withings are also sold as baby
 monitors and home security products. The very fact this code exists should
