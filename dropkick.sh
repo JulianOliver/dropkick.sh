@@ -41,7 +41,7 @@ while true;
         for TARGET in $(arp-scan -I $NIC --localnet | grep -o -E \
         '([[:xdigit:]]{1,2}:){5}[[:xdigit:]]{1,2}')
            do
-               if [[ "$TARGET" == "$GGMAC" ]]
+               if [[ $TARGET == $GGMAC ]]
                    then
                        # Audio alert
                        beep -f 1000 -l 500 -n 200 -r 2
