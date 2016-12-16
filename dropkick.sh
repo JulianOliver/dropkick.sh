@@ -29,7 +29,7 @@ readonly BSSID=$2 # Network BSSID (AirBnB WiFi network)
 readonly MAC=$(/sbin/ifconfig | grep $NIC | head -n 1 | awk '{ print $5 }')
 # MAC=$(ip link show "$NIC" | awk '/ether/ {print $2}') # If 'ifconfig' not
 # present.
-readonly GGMAC='@(30:8C:FB*|00:24:E4*|00:40:8C*|58:70:C6*|00:1F:54*|00:09:18*)' # Match against DropCam, Withings, Axis, Xiaomi, Lorex, and Samsung Techwin
+readonly GGMAC='@(30:8C:FB*|00:24:E4*|00:40:8C*|58:70:C6*|00:1F:54*|00:09:18*|74:C2:46*|A0:02:DC*|84:D6:D0*|18:B4:30*)' # Match against DropCam, Withings, Axis, Xiaomi, Lorex, and Samsung Techwin
 readonly POLL=30 # Check every 30 seconds
 readonly LOG=/var/log/dropkick.log
 
